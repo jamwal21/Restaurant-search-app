@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "FoodApp",
-    "slug": "FoodApp",
+    "name": "RestaurantApp",
+    "slug": "RestaurantApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashImage.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#4a148c"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,6 +21,7 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "A restaurant app based on finding restaurants near you using food name in search bar.\nUsed yelp api to fetch the data,functional components and hooks. "
   }
 }
